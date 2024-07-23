@@ -1,0 +1,21 @@
+/* Custom styles */
+body {
+    background-color: #f8f9fa;
+}
+
+#suggestions {
+    max-height: 300px;
+    overflow-y: auto;
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+}
+
+.suggestion-item {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.suggestion-item:hover {
+    background-color: #f0f0f0;
+}
